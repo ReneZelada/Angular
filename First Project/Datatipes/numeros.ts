@@ -1,4 +1,4 @@
-var edad:number;
+var edad:number
 
 edad=52;
 
