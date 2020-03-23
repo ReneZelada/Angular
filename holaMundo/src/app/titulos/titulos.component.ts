@@ -25,9 +25,34 @@ constructor() { }
   ngOnInit() {
   }
 
-  ingresar(){
+  ingresar(evento){
+    if(evento.key == "Enter"){
     console.log(this.correo)
     console.log(this.password)
   }
+  }
+  llamarAlert()
+{
+  alert("ha hecho doble click")
+}
+escribirModel()
+{
+  console.log(this.password)
+}
 
+escribir(evento){
+  console.log(evento.target.value)
+}
+colorearFondo(evento){
+  evento.srcElement.style.background = "red"
+}
+
+size(evento){
+  evento.srcElement.style.width = "200px"
+  evento.srcElement.style.height = "200px"
+}
+sizeplus(evento){
+  evento.srcElement.style.width = "500px"
+  evento.srcElement.style.height = "500px"
+}
 }
