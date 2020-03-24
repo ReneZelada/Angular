@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { TitulosComponent } from './titulos/titulos.component';
 import { FormsModule } from '@angular/forms'
   import { from } from 'rxjs';
+import { DirectivasComponent } from './directivas/directivas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TitulosComponent
+    TitulosComponent,
+    DirectivasComponent
   ],
   imports: [
     BrowserModule,

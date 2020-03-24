@@ -1,0 +1,38 @@
+<!--<div *ngIf="!cargando">
+    <p>Hola termino de cargar</p>
+
+</div>
+<img *ngIf ="cargando" src="https://media1.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif?cid=790b761136f6fd84f14082c058b294d6d30df1b8991debec&rid=giphy.gif" alt="">
+
+<button (click)="mostrarCargando()">cargando</button>-->
+
+<!--<div *ngFor="let nombre of nombres">
+
+    <p>Hola mi nombre es:{{nombre}} </p>
+</div>
+
+<div *ngFor="let producto of productos" class="producto">
+
+    <p>Le producto es:{{producto.nombre}} </p>
+    <p>Le stock es:{{producto.stock}} </p>
+    <p>Le fabricante es:{{producto.fabricantes}} </p>
+    <p>la fecha de vencimiento es:{{producto.fechaVence}} </p>
+</div>-->
+<!--
+<div class="tab" [ngSwitch]="pestana">
+<button (click)="cambiarPestana('perfil')">Perfil</button>
+<button (click)="cambiarPestana('puntos')"> Puntos</button>
+<button (click)="cambiarPestana('info')">info</button>
+<div class="tabContenido">
+    <p *ngSwitchCase="'perfil'"> Este es el perfil</p>
+    <p *ngSwitchCase="'puntos'">Este es el puntos</p>
+    <p *ngSwitchCase="'info'">Esta es la info</p>
+    <p *ngSwitchDefault>Selecciones una funcion</p>
+
+</div>
+</div>-->
+<button (click)="alternatFondo()">Alternar</button>
+
+<div [ngClass]="{'cuadrado': mostrarCuadrado}">
+    <p>verde</p>
+</div>
