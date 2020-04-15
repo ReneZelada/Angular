@@ -7,12 +7,14 @@ import { TitulosComponent } from './titulos/titulos.component';
 import { FormsModule } from '@angular/forms'
   import { from } from 'rxjs';
 import { DirectivasComponent } from './directivas/directivas.component';
+import { EjemploComponent } from './ejemplo/ejemplo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TitulosComponent,
-    DirectivasComponent
+    DirectivasComponent,
+    EjemploComponent
   ],
   imports: [
     BrowserModule,
