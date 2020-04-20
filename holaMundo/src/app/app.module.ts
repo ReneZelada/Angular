@@ -8,13 +8,17 @@ import { FormsModule } from '@angular/forms'
   import { from } from 'rxjs';
 import { DirectivasComponent } from './directivas/directivas.component';
 import { EjemploComponent } from './ejemplo/ejemplo.component';
+import { PipesComponent } from './pipes/pipes.component';
+import { ContinuaraPipe } from './continuara.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     TitulosComponent,
     DirectivasComponent,
-    EjemploComponent
+    EjemploComponent,
+    PipesComponent,
+    ContinuaraPipe
   ],
   imports: [
     BrowserModule,
