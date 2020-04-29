@@ -12,6 +12,11 @@ import { PipesComponent } from './pipes/pipes.component';
 import { ContinuaraPipe } from './continuara.pipe';
 import { Pagina404Component } from './pagina404/pagina404.component';
 import { EncabezadoComponent } from './encabezado/encabezado.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
+import { AgregarusuariosComponent } from './usuarios/agregarusuarios/agregarusuarios.component';
+import { EditarusuariosComponent } from './usuarios/editarusuarios/editarusuarios.component';
+import { ArticulosComponent } from './articulos/articulos.component';
+import { ArticulodetalleComponent } from './articulodetalle/articulodetalle.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +27,12 @@ import { EncabezadoComponent } from './encabezado/encabezado.component';
     PipesComponent,
     ContinuaraPipe,
     Pagina404Component,
-    EncabezadoComponent
+    EncabezadoComponent,
+    UsuariosComponent,
+    AgregarusuariosComponent,
+    EditarusuariosComponent,
+    ArticulosComponent,
+    ArticulodetalleComponent
   ],
   imports: [
     BrowserModule,
